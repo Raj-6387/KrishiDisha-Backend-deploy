@@ -6,3 +6,5 @@ typing
 numpy
 lightgbm
 pandas
+scikit-learn
+python-multipart

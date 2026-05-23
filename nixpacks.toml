@@ -1,2 +1,6 @@
 [phases.setup]
+nixPkgs = ["python310", "gcc"]
 aptPkgs = ["libgomp1"]
+
+[start]
+cmd = "uvicorn app:app --host 0.0.0.0 --port $PORT"
